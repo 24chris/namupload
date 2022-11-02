@@ -20,7 +20,7 @@ import {
   ScaleIcon,
 } from "@heroicons/react/outline";
 
-export default function Home({ articles }) {
+export default function Home() {
   return (
     <>
       <Navbar />

@@ -4,6 +4,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 import Link from 'next/link'
+import logo from '../public/blaze.png'
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
@@ -41,7 +42,7 @@ export default function Navbar() {
                 <div className="flex-shrink-0 flex items-center">
                   <Image
                     className="block lg:hidden h-8 w-auto"
-                    src="/public/blaze.png"
+                    src={logo}
                     alt="logo"
                     width={30} height={30}
                   />

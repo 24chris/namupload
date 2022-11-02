@@ -1,17 +1,19 @@
 import Image from 'next/image'
-
+import one from '../public/item2.jpg'
+import two from '../public/blaze.jpg'
+import three from '../public/item2.jpg'
 
 const features = [
   {
-    imageSrc: '/public/item2.JPG',
+    imageSrc: one,
     imageAlt:'Others'
   },
   {
-    imageSrc: '/public/blaze.png',
+    imageSrc: two,
     imageAlt:'Melo'
   },
   {
-    imageSrc: '/public/item2.JPG',
+    imageSrc: three,
     imageAlt:'item2'
   },
 ]

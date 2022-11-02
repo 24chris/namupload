@@ -3,15 +3,15 @@ import Image from 'next/image'
 
 const features = [
   {
-    imageSrc: '/item2.JPG',
+    imageSrc: '/public/item2.JPG',
     imageAlt:'Others'
   },
   {
-    imageSrc: '/blaze.png',
+    imageSrc: '/public/blaze.png',
     imageAlt:'Melo'
   },
   {
-    imageSrc: '/item2.JPG',
+    imageSrc: '/public/item2.JPG',
     imageAlt:'item2'
   },
 ]

@@ -41,7 +41,7 @@ export default function Navbar() {
                 <div className="flex-shrink-0 flex items-center">
                   <Image
                     className="block lg:hidden h-8 w-auto"
-                    src="/blaze.png"
+                    src="/public/blaze.png"
                     alt="logo"
                     width={30} height={30}
                   />

@@ -162,7 +162,7 @@ export default function Home({ articles }) {
                         alt="Something"
                         width={378}
                         height={248}
-                        src={one}
+                        src={three}
                       ></Image>
                     </div>
                     <div className="w-full p-5">
@@ -217,7 +217,7 @@ export default function Home({ articles }) {
                         alt="Something"
                         width={378}
                         height={248}
-                        src={one}
+                        src={four}
                       ></Image>
                     </div>
                     <div className="w-full p-5">

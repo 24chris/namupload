@@ -11,7 +11,7 @@ import Footer from "../components/Footer";
 import one from "../public/throughback/2018art.png"
 import two from "../public/throughback/2018b.png"
 import three from "../public/throughback/2014.png"
-import four from "../public/logos/blaze.png"
+import four from "../public/NewGroup.png"
 
 import {
   AnnotationIcon,

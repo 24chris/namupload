@@ -3,20 +3,20 @@ import one from '../public/item2.jpg'
 import two from '../public/blaze.jpg'
 import three from '../public/item2.jpg'
 
-const features = [
-  {
-    imageSrc: one,
-    imageAlt:'Others'
-  },
-  {
-    imageSrc: two,
-    imageAlt:'Melo'
-  },
-  {
-    imageSrc: three,
-    imageAlt:'item2'
-  },
-]
+// const features = [
+//   {
+//     imageSrc: one,
+//     imageAlt:'Others'
+//   },
+//   {
+//     imageSrc: two,
+//     imageAlt:'Melo'
+//   },
+//   {
+//     imageSrc: three,
+//     imageAlt:'item2'
+//   },
+// ]
 
 export default function CTA() {
     return (
@@ -35,14 +35,26 @@ export default function CTA() {
 
         <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
-            {features.map((feature) => (
-              <div key={feature.name} className="relative">
+            
+              <div className="relative">
                 <dt>
-                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>
+                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Training</p>
                 </dt>
-                <Image src={feature.imageSrc} width={360} height={420} alt={feature.imageAlt} className="mt-2 ml-16 text-base text-gray-500"></Image>
+                <Image src={one} width={360} height={420} alt='Others' className="mt-2 ml-16 text-base text-gray-500"></Image>
               </div>
-            ))}
+               <div className="relative">
+               <dt>
+                 <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Get together</p>
+               </dt>
+               <Image src={two} width={360} height={420} alt='Melo' className="mt-2 ml-16 text-base text-gray-500"></Image>
+             </div>
+              <div  className="relative">
+              <dt>
+                <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Ready to go</p>
+              </dt>
+              <Image src={three} width={360} height={420} alt='item2' className="mt-2 ml-16 text-base text-gray-500"></Image>
+            </div>
+           
           </dl>
         </div>
       </div>

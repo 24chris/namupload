@@ -37,21 +37,21 @@ export default function CTA() {
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10">
             
               <div className="relative">
-                <dt>
+                {/* <dt>
                   <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Training</p>
-                </dt>
+                </dt> */}
                 <Image src={one} width={360} height={420} alt='Others' className="mt-2 ml-16 text-base text-gray-500"></Image>
               </div>
                <div className="relative">
-               <dt>
+               {/* <dt>
                  <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Get together</p>
-               </dt>
+               </dt> */}
                <Image src={two} width={360} height={420} alt='Melo' className="mt-2 ml-16 text-base text-gray-500"></Image>
              </div>
               <div  className="relative">
-              <dt>
+              {/* <dt>
                 <p className="ml-16 text-lg leading-6 font-medium text-gray-900">Ready to go</p>
-              </dt>
+              </dt> */}
               <Image src={three} width={360} height={420} alt='item2' className="mt-2 ml-16 text-base text-gray-500"></Image>
             </div>
            

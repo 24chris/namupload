@@ -4,7 +4,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../public/blaze.PNG'
+import logo from '../public/blaze.png'
 
 const navigation = [
   { name: 'Home', href: '/', current: false },

@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import one from '../public/item2.JPG'
-import two from '../public/blaze.PNG'
-import three from '../public/item2.JPG'
+import one from '../public/item2.jpg'
+import two from '../public/blaze.png'
+import three from '../public/item2.jpg'
 
 // const features = [
 //   {
